@@ -1,10 +1,9 @@
-title:   Tutorials
+title:   Projests
 layout: default.liquid
-permalink: /tutorials.html
+permalink: /projests.html
 ---
 <section >
 <div >
-
 
 
 ## Examples

@@ -1,8 +1,8 @@
-# OUISRC
+## OUISRC
 The OUISRC website template made with [Cobalt](https://cobalt-org.github.io/)
 
 
-# Contribute.
+## Contribute.
 So you want make OUISRC Website more beautiful.
 ```bash
 $ cobalt -V    // Cobalt 0.11.1
