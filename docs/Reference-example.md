@@ -3,6 +3,6 @@ layout: docs.liquid
 permalink: /docs/Reference/Reference-example.html
 ---
 
-## Reference Example
+### Reference Example
 
 The words is comming.

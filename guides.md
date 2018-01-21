@@ -1,15 +1,12 @@
 title:   Guides
-layout: default.liquid
+layout: guides.liquid
 permalink: /guides.html
 ---
 <section >
 <div >
 
 
-
-## Examples
-
-The words is comming.
+## The words is comming.
 
 
 </div>

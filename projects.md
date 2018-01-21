@@ -1,14 +1,15 @@
-title:   Projests
-layout: default.liquid
-permalink: /projests.html
+title:   Projects
+layout: projects.liquid
+permalink: /projects.html
 ---
 <section >
 <div >
 
 
-## Examples
+# [muro](https://github.com/OUISRC/muro)
 
-The words is comming.
+<br> The muro library for modern community. 
+
 
 
 </div>

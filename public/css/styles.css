@@ -35,6 +35,7 @@
     display: flex;
     background-color: var(--black);
     justify-content: space-between;
+    border-bottom: 1px solid var(--new);
     /* border-bottom: 1px solid #dfdcdc;  
     box-shadow: 0 3px 3px rgba(200, 216, 206, 0.12), 0 3px 3px rgba(97, 107, 100, 0.24); */
   }
@@ -63,6 +64,9 @@
 /* ----------------------------------------section----------------------------------------*/
   section, #index {
     min-height: 100vh;
+  }
+  section main {
+    margin-bottom: 2rem;
   }
   section.docs aside ul li a, section.blog aside ul li a {
     display: inline-block;
@@ -138,7 +142,7 @@
     padding: 1rem 0;
   }
 
-/* ----------------------------------------index----------------------------------------*/
+/* ----------------------------------------home----------------------------------------*/
   #index-top {
       margin: 0 auto;
       padding: 8rem 2rem;
@@ -161,22 +165,16 @@
       background-color: var(--grey);
       border: none;
   }
-  #index #Features {
-    margin: 2rem auto;
-    padding: 1rem 2rem;
-    border: 2px solid var(--grey);
+  #index #content {
+      padding: 2rem;
+      text-align: center;
   }
-  #index #Features #feature {
-    padding-bottom: 1rem;
-  }
-  #index #Features article {
-    padding-top: 1rem;
-  }
-  #index #Features article h3 {
-    font-size: 1.3rem;
-    padding-bottom: 0.5rem;
-  }
-
+/* ----------------------------------------guides----------------------------------------*/
+/* ----------------------------------------projects----------------------------------------*/
+/* ----------------------------------------community----------------------------------------*/
+/* ----------------------------------------docs----------------------------------------*/
+/* ----------------------------------------blog----------------------------------------*/
+/* ----------------------------------------more----------------------------------------*/
 /* ----------------------------------------mobile----------------------------------------*/
   @media only screen and (max-width:  650px) {
     #lnav h1 img {
@@ -193,7 +191,7 @@
     #rnav li a {
       display:block;
       font-weight: bold;
-      border-bottom: 1px solid var(--grey);
+      border-bottom: 1px solid var(--new);
       padding: 0.5rem 1rem;
       color: var(--white);
     }
@@ -256,7 +254,7 @@
       flex: 0 1 30%;
     }
     section.docs main, section.blog main {
-      flex: 0 1 70%;
+      flex: 0 1 100%;
     }
     #hr {
       display: none;
@@ -312,7 +310,7 @@
       flex: 0 1 30%;
     }
     section.docs main, section.blog main {
-      flex: 0 1 70%;
+      flex: 0 1 100%;
     }
     #hr {
       display: none;

@@ -3,6 +3,6 @@ layout: docs.liquid
 permalink: /docs/Basics/Basics-example.html
 ---
 
-## Basics Example
+### Basics Example
 
 The words is comming.
