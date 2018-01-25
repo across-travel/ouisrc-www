@@ -4,7 +4,7 @@
     --text-color: #413e3e;
     --black: #000;
     --white: #fff;
-    --new: rgb(82, 29, 79);
+    --purple: #5e164e;
     --font-stack: helvetica, arial, sans-serif;
   }
   *, *:before, *:after {
@@ -21,7 +21,7 @@
     color: var(--text-color);
     text-decoration: none; 
   }
-  a:hover { color: var(--new) ;text-decoration:none; }
+  a:hover { color: var(--purple) ;text-decoration:none; }
   ul, ol, li {
     list-style: none;
   }
@@ -35,7 +35,7 @@
     display: flex;
     background-color: var(--black);
     justify-content: space-between;
-    border-bottom: 1px solid var(--new);
+    border-bottom: 1px solid var(--purple);
     /* border-bottom: 1px solid #dfdcdc;  
     box-shadow: 0 3px 3px rgba(200, 216, 206, 0.12), 0 3px 3px rgba(97, 107, 100, 0.24); */
   }
@@ -83,8 +83,8 @@
   section.blog aside ul li a:hover,
   section.blog aside ul li a:active,
   section.blog aside ul li a:focus {
-    color: var(--new);
-    border-left: 3px solid var(--new);
+    color: var(--purple);
+    border-left: 3px solid var(--purple);
     padding: 0.25rem 0.5rem;
   }
   section.docs aside p, section.blog aside p {
@@ -98,7 +98,7 @@
     margin: 0 0 10px;
     font-size: 13px;
     line-height: 1.42857143;
-    color: var(--new);
+    color: var(--purple);
     word-break: break-all;
     word-wrap: break-word;
     background-color: #f5f5f5;
@@ -112,7 +112,7 @@
     background-color: #f5f5f5;
     border-radius: 4px;
     border: 1px solid #ccc;
-    color: var(--new);
+    color: var(--purple);
     text-shadow: none;
   }
 
@@ -130,10 +130,10 @@
   footer{
     text-align: center;
     justify-content: center;
-    border-top: 2px solid var(--new);
+    border-top: 2px solid var(--purple);
   }
   footer a { 
-    color: var(--new); 
+    color: var(--purple); 
     font-weight: bold;
   }
   footer p {
@@ -145,17 +145,18 @@
 /* ----------------------------------------home----------------------------------------*/
   #index-top {
       margin: 0 auto;
-      padding: 8rem 2rem;
+      padding: 11rem 2rem 8rem;
       text-align: center;
-      line-height: 3rem;
+      line-height: 2rem;
       background-color: var(--black);
   }
   #index-top h1 {
-      font-size: 2.2rem;
+      font-size: 2rem;
       color: var(--white);
   }
   #index-top p {
     font-size: 1.1rem;
+    margin: 2rem 0;
     color: var(--grey);
   }
   #index-top button {
@@ -191,7 +192,7 @@
     #rnav li a {
       display:block;
       font-weight: bold;
-      border-bottom: 1px solid var(--new);
+      border-bottom: 1px solid var(--purple);
       padding: 0.5rem 1rem;
       color: var(--white);
     }
