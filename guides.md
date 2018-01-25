@@ -5,8 +5,9 @@ permalink: /guides.html
 <section >
 <div >
 
-
-## The words is comming.
+### The OUISRC Community
+<br>
+Open Source Softwares/Projects 's Future Should Be Community! Join OUISRC Make FutureSoftwares/Projects
 
 
 </div>
